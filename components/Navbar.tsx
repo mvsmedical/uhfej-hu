@@ -60,7 +60,7 @@ export default function Navbar() {
               href="/ultrahang-fej-javitas#inquiry"
               className="ml-3 bg-accent hover:bg-accent-dark text-white px-5 py-2 rounded-lg text-sm font-semibold transition-all shadow-sm"
             >
-              Bevizsgálás kérése
+              Ajánlat kérése
             </Link>
           </div>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="block mx-4 mt-2 bg-accent hover:bg-accent-dark text-white px-4 py-2.5 rounded-lg text-sm font-semibold text-center transition-all"
             >
-              Bevizsgálás kérése
+              Ajánlat kérése
             </Link>
           </div>
         )}

@@ -157,7 +157,7 @@ export default function HibakPage() {
               href="/ultrahang-fej-javitas#inquiry"
               className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-xl transition-all shadow-md"
             >
-              Bevizsgálás kérése
+              Ajánlat kérése
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
