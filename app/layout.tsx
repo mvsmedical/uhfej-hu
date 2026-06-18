@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     'ultrahang fej kábel csere', 'ultrahang fej lencse csere'
   ],
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
   openGraph: {
     type: 'website',
