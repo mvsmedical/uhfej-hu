@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-text-primary antialiased;
+  }
+}
+
+@layer components {
+  .gradient-hero {
+    background: linear-gradient(135deg, #0F4C81 0%, #1a3a5c 50%, #0F4C81 100%);
+    position: relative;
+  }
+  
+  .gradient-hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #E07A5F, #2C7DA0, #61A5C2);
+  }
+  
+  .gradient-section {
+    background: linear-gradient(180deg, #F8FAFB 0%, #EDF2F7 100%);
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-card border border-gray-100 transition-all duration-300;
+  }
+  
+  .card:hover {
+    @apply shadow-card-hover border-primary-light/20;
+  }
+}
