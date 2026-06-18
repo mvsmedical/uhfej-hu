@@ -18,6 +18,11 @@ export const metadata: Metadata = {
     'Siemens ultrahang fej javítás', 'Mindray ultrahang fej',
     'ultrahang fej kábel csere', 'ultrahang fej lencse csere'
   ],
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'hu_HU',
